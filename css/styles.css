@@ -374,3 +374,16 @@
  .orilla{
   	border: 1px solid #D8D8D8;
  }
+
+ .espacio{
+  margin-top:25px;
+ }
+
+ .fecha{
+  font-size: 14px;
+  color: #666666;
+ }
+ .contenido{
+  font-size: 14px;
+  color: #666666;
+ }
