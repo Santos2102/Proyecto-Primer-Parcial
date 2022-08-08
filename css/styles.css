@@ -34,6 +34,7 @@
     list-style: none;
     position: relative;
     --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
+    
 }
 
 .menu_item:hover{
@@ -54,7 +55,6 @@
 .menu_link:hover{
     color:#509377 ;
     background-color: #FFFFFF;
-    
 }
 
 .menu_nesting{
@@ -364,3 +364,13 @@
 .text{
     margin-top:100px;
 }
+
+.tarjeta {
+  transition: 0.3s;
+  border-color: #D8D8D8;
+  border: 1px;
+ }
+
+ .orilla{
+  	border: 1px solid #D8D8D8;
+ }
