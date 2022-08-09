@@ -19,6 +19,7 @@
     width: 100%;
     max-width: 1000px;
     height: 100%;
+    
     margin: 0 auto;
     
     
@@ -82,12 +83,6 @@
     margin: 20px auto 0 auto;
 }
 
-
-.verde{
-    background-color: #034732;
-    height: auto;
-    color: #FFFFFF;
-}
 .button {
     border: none;
     border-radius: 10px;
@@ -99,6 +94,13 @@
     font-size: 25px;
     margin: 4px 2px;
     cursor: pointer;
+    background-color: #007041;
+  }
+
+  .button:hover{
+    height: 60px;
+    width: 300px;
+    font-size: 30px;
     background-color: #007041;
   }
 
@@ -342,6 +344,11 @@
     background-color: #FFFFFF;
   }
 
+  .button5:hover{
+    height: 50px;
+    width: 150px;
+  }
+
   .imagenverde{
     background-image: url(/Assets/Image/FondoVerde.jpeg);
     background-attachment: fixed;
@@ -359,6 +366,7 @@
     height: 100px;
     color: #034732;
     font-weight: bold;
+    bottom: 0cm;
 }
 
 .text{
@@ -387,3 +395,14 @@
   font-size: 14px;
   color: #666666;
  }
+
+ .espaciotexto{
+  margin-top: 75px;
+ }
+
+ .verde{
+  background-color: #034732;
+  height: auto;
+  color: #FFFFFF;
+  padding: 50px;
+}
